@@ -1,0 +1,153 @@
+*{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 90%;
+    overflow-y: hidden;
+    font-style: normal;
+    background-image: url(imagenes/fondo1.png);
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 15px;
+    width: 3%;
+    border-radius: 10px;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    height: 350px;
+    border: none;
+    color: #f2f7f0;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+
+::placeholder {color: #f2f7f0;}
+    .text-area :focus{
+        outline: none;
+    }
+
+.mensaje{
+    background: white;
+    background-image: url("imagenes/Muñeco.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 790px;
+    margin-top: 5px;
+    padding-left: 20px;
+    position: absolute;
+    height: 540px;
+}
+
+.mensaje :focus{
+    outline: none;
+}
+
+.mensaje_h2{
+    background: #ffffff;
+    position: absolute;
+    margin-left: 334px;
+    text-align: center;
+    margin-top: 420px; 
+    font-size: 20px;
+    font-weight: bold;
+}
+.mensaje_h3{
+    background: #ffffff;
+    position: absolute;
+    margin-left: 315px;
+    bottom: 85px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+    
+}
+
+.informacion{
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+    color: white;
+    font-size: 15px;
+    height: 90px;
+    position: absolute;
+}
+
+.informacion img{
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    background: red;
+}
+
+.btn-encriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #495057;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-top: 60px;
+    position:fixed;
+}
+
+.btn-encriptar:hover{
+    border-color: aqua;
+}
+
+.btn-desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 69px;
+    margin-left: 360px;
+    width: 328px;
+    margin-top: 60px; 
+    position:fixed;  
+}
+
+.btn-desencriptar:hover{
+    border-color: yellow;
+}
+
+.btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: yellowgreen;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 302px;
+    margin-top: 449px;
+    position: fixed;
+    width: 336px;
+}
+
+.btn-copiar:hover{
+    border-color: red;
+}
+
+.copyright{
+    color:orange;
+    font-size: 13px;
+    margin-left: 12px;
+    margin-top:110px;
+}
+
